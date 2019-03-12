@@ -1,0 +1,23 @@
+{
+    "name": "sunnyct/nova-poshta",
+    "type": "library",
+    "description": "Nova poshta API (v2 protocol)",
+    "keywords": ["api", "prestashop"],
+    "homepage": "https://github.com/sunnyct/nova-poshta",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pavlenko Eugeniy",
+            "email": "pavlenko.obs@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "sunnyct/curl": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SunNYCT\\NovaPoshta\\": "src/SunNYCT/NovaPoshta/"
+        }
+    }
+}
